@@ -6,13 +6,17 @@
 }
 
 body {
-    background: #222;
+    background: url("/assets/img/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: rgb(255,255,255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
