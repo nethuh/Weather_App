@@ -9,6 +9,8 @@ body {
     background: url("/assets/img/background.jpg");
     background-size: cover;
     min-height: 100vh;
+    overflow-y: hidden;
+
 }
 
 .card {
